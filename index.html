@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="carousel">
+        <div>
+          <img
+            src="https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
+<script>
+  $(document).ready(function () {
+    $(".carousel").slick({
+      slidesToShow: 1,
+      dots: true,
+      centerMode: true,
+      centerPadding: "300px",
+      arrows: false
+    });
+  });
+</script>
